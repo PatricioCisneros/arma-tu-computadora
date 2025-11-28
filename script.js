@@ -107,5 +107,8 @@ else if (monitor == "32") {
 
     total = total + 2500; }
 
+//Accesorios
+
+
 alert ("Precio total: " + total);
 }
