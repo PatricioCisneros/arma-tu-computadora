@@ -23,6 +23,7 @@
 
 <br>
 
+<div id="formulario">
 <form action="" id="formulario-compu">
 
     <div class="apartado">Componentes de tu computadora:</div>
@@ -73,7 +74,7 @@
      <!-- Disco duro -->
     <div class="apartado">Disco duro:</div>
 
-    <select name="Disco duro" id="Disco duro">
+    <select name="Disco duro" id="Discoduro">
 
         <option value="500GB">500 GB $500</option>
 
@@ -95,7 +96,7 @@
      <!-- Memoria RAM -->
     <div class="apartado">Memoria RAM:</div>
 
-    <select name="Memoria RAM" id="Memoria RAM">
+    <select name="Memoria RAM" id="MemoriaRAM">
 
         <option value="4GB">4 GB $600</option>
 
@@ -285,7 +286,7 @@
 
     <!-- Boton -->
      <div class="button-container">
-        <button type="submit" class="button">Calcular total:</button>
+        <button type="button" class="button" onclick="calcular()">Calcular total:</button>
      </div>
     
 
@@ -293,6 +294,7 @@
     <br>
 
 </form>
+</div>
 
 <!-- Etiqueta final -->
 <div class="etiqueta-final">

@@ -4,15 +4,15 @@ function calcular (){
 
 var total = 0;
 
-var gabinete = formulario.Gabinete.value;
+var gabinete = document.getElementById("Gabinete").value;
 
-var procesador = formulario.Procesador.value;
+var procesador = document.getElementById("Procesador").value;
 
-var discoduro = formulario.Discoduro.value;
+var discoduro = document.getElementById("Discoduro").value;
 
-var memoriaram = formulario.MemoriaRAM.value;
+var memoriaram = document.getElementById("MemoriaRAM").value;
 
-var monitor = formulario.Monitor.value;
+var monitor = document.getElementById("Monitor").value;
 
 //Gabinete
 if (gabinete == "Minitorre") {
@@ -82,6 +82,30 @@ else if (memoriaram == "16GB") {
 
     total = total + 1950; }
 
-    
+//Monitor
+if (monitor == "17") {
 
+    total = total + 2500; }
+
+else if (monitor == "19") {
+
+    total = total + 2500; }
+
+else if (monitor == "21.5") {
+
+    total = total + 2500; }
+
+else if (monitor == "24") {
+
+    total = total + 2500; }
+
+else if (monitor == "27") {
+
+    total = total + 2500; }
+
+else if (monitor == "32") {
+
+    total = total + 2500; }
+
+alert ("Precio total: " + total);
 }
