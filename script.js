@@ -14,6 +14,7 @@ var memoriaram = document.getElementById("MemoriaRAM").value;
 
 var monitor = document.getElementById("Monitor").value;
 
+
 //Gabinete
 if (gabinete == "Minitorre") {
 
@@ -108,7 +109,85 @@ else if (monitor == "32") {
     total = total + 2500; }
 
 //Accesorios
+if (accesorios == "Mouse") {
 
+    total = total + 500; }
+
+if (accesorios == "Teclado") {
+
+    total = total + 500; }
+
+if (accesorios == "Bocinas") {
+
+    total = total + 500; }
+
+if (accesorios == "Web cam") {
+
+    total = total + 500; }
+
+if (accesorios == "UPS") {
+
+    total = total + 500; }
+
+if (accesorios == "Alfombrilla") {
+
+    total = total + 500; }
+
+if (accesorios == "Control gamer") {
+
+    total = total + 500; }
+
+if (accesorios == "Luz RGB") {
+
+    total = total + 500; }
+
+if (accesorios == "Silla gamer") {
+
+    total = total + 500; }
+
+if (accesorios == "Adaptador wifi") {
+
+    total = total + 500; }
+
+if (accesorios == "HUB usb") {
+
+    total = total + 500; }
+
+if (accesorios == "Audifonos") {
+
+    total = total + 500; }
+
+if (accesorios == "Monitor adicional") {
+
+    total = total + 500; }
+
+if (accesorios == "Soporte") {
+
+    total = total + 500; }
+
+if (accesorios == "Ventilador") {
+
+    total = total + 500; }
+
+if (accesorios == "Microfono") {
+
+    total = total + 500; }
+
+if (accesorios == "Lector SD") {
+
+    total = total + 500; }
+
+if (accesorios == "Cable HDMI") {
+
+    total = total + 500; }
+
+if (accesorios == "Base refrigerante") {
+
+    total = total + 500; }
+
+if (accesorios == "Caja de herramientas") {
+
+    total = total + 500; }
 
 alert ("Precio total: " + total);
 }
