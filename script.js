@@ -109,83 +109,83 @@ else if (monitor == "32") {
     total = total + 2500; }
 
 //Accesorios
-if (accesorios == "Mouse") {
+if (document.getElementsByName("Mouse")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Teclado") {
+if (document.getElementsByName("Teclado")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Bocinas") {
+if (document.getElementsByName("Bocinas")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Web cam") {
+if (document.getElementsByName("Web cam")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "UPS") {
+if (document.getElementsByName("UPS")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Alfombrilla") {
+if (document.getElementsByName("Alfombrilla")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Control gamer") {
+if (document.getElementsByName("Control gamer")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Luz RGB") {
+if (document.getElementsByName("Luz RGB")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Silla gamer") {
+if (document.getElementsByName("Silla gamer")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Adaptador wifi") {
+if (document.getElementsByName("Adaptador wifi")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "HUB usb") {
+if (document.getElementsByName("HUB usb")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Audifonos") {
+if (document.getElementsByName("Audifonos")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Monitor adicional") {
+if (document.getElementsByName("Monitor adicional")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Soporte") {
+if (document.getElementsByName("Soporte")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Ventilador") {
+if (document.getElementsByName("Ventilador")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Microfono") {
+if (document.getElementsByName("Microfono")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Lector SD") {
+if (document.getElementsByName("Lector SD")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Cable HDMI") {
+if (document.getElementsByName("Cable HDMI")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Base refrigerante") {
+if (document.getElementsByName("Base refrigerante")[0].checked) {
 
     total = total + 500; }
 
-if (accesorios == "Caja de herramientas") {
+if (document.getElementsByName("Caja de herramientas")[0].checked) {
 
     total = total + 500; }
 
